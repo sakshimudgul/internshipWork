@@ -1,11 +1,11 @@
-import React from 'react'
-import UserDashboard from './pages/UserDashboard'
+import React from "react";
+import UserDashboard from "./pages/UserDashboard";
 function App() {
   return (
-    <div >
-      <UserDashboard/>
+    <div>
+      <UserDashboard />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

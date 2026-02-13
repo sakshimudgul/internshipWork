@@ -5,7 +5,7 @@ function User({ id, firstName, hobbies }) {
   const [count, setCount] = useState(1);
   const increaseCount = () => {
     setCount((prev) => {
-      return prev - 1;
+      return prev + 1;
     });
   };
   return (useState
